@@ -1,9 +1,13 @@
 import Cell from "./Cell";
 
-const Stage = () => {
+const Stage = ({ stage }) => {
   return (
     <div>
-      <Cell />
+      {stage.map((row) => {
+        return row.map((cell, x) => {
+          return <Cell key={x} type={cell[0]} />;
+        });
+      })}
     </div>
   );
 };
