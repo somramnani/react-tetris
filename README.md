@@ -1,14 +1,16 @@
 # React-Tetris
 
+A Tetris game built using React, React hooks, and Styled Components.
+
 ## Table of Contents
-1. [Description](#description)
+1. [Features](#features)
 2. [Installation](#installation)
 3. [Scripts](#scripts)
 4. [Technologies Used](#technologies-used)
 6. [Contributing](#contributing)
 
-## Description
-A Tetris game built using React, React hooks, and Styled Components.
+## Features
+
 
 ## Installation
 1. Clone the repository.
