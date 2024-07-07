@@ -17,7 +17,6 @@ const Tetris = () => {
   const [gameOver, setGameOver] = useState(false);
   const [player] = usePlayer();
 
-  console.log("re-render");
   return (
     <StyledTetrisWrraper>
       <StyledTetris>
