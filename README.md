@@ -16,7 +16,6 @@ A Tetris game built using React, React hooks, and Styled Components.
 1. Clone the repository.
    ```bash
    git clone https://github.com/somramnani/react-tetris.git
-   cd react-tetris
    ```
 
 2. Go into the directory
