@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createStage, checkCollision } from "../utils/gameHelper";
+import { createStage, checkCollision } from "../utils/gameHelpers";
 // Styled Components
 import { StyledTetrisWrapper, StyledTetris } from "./styles/StyledTetris";
 //Components
