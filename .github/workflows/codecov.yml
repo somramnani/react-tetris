@@ -19,6 +19,6 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage/lcov.info
-          flags: unittests
+          flags: tests
           name: codecov-umbrella
           fail_ci_if_error: true
