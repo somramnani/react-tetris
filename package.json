@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test -- --config=jest.config.js",
+    "test": "react-scripts test -- --config=jest.config.js ",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -38,7 +38,14 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
     "@testing-library/react": "^16.0.0",
+    "babel-jest": "^29.7.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-transform-css": "^6.0.1",
+    "jest-transform-stub": "^2.0.0",
     "react-test-renderer": "^18.3.1"
   }
 }
