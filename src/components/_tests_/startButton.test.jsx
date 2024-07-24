@@ -6,4 +6,5 @@ test("should render Start Button component", () => {
   render(<StartButton />);
   const startButtonElement = screen.getByTestId("startButton-1");
   expect(startButtonElement).toBeInTheDocument();
+  expect(startButtonElement).toHaveTextContent("Start Game");
 });
