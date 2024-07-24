@@ -1,7 +1,11 @@
 import { StyledStartButton } from "./styles/StyledStartButton";
 
 const StartButton = ({ callback }) => {
-  return <StyledStartButton onClick={callback}>Start Game</StyledStartButton>;
+  return (
+    <StyledStartButton data-testid="startButton-1" onClick={callback}>
+      Start Game
+    </StyledStartButton>
+  );
 };
 
 export default StartButton;
