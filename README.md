@@ -1,5 +1,4 @@
-# React-Tetris
-
+# React-Tetris [![codecov](https://codecov.io/gh/somramnani/react-tetris/graph/badge.svg?token=ADCYRWJ3AQ)](https://codecov.io/gh/somramnani/react-tetris)
 A Tetris game built using React, React hooks, and Styled Components.
 
 ## Table of Contents
