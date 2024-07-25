@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Start Button Component should match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-aYaIB fbOjTh"
+    data-testid="startButton-1"
+  >
+    Start Game
+  </button>
+</DocumentFragment>
+`;
