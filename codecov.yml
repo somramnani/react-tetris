@@ -15,7 +15,7 @@ coverage:
 
 comment: # this is a top-level key
   layout: "diff, flags, files"
-  behavior: default
+  behavior: always
   require_changes: false # learn more in the Requiring Changes section below
   require_base: false # [true :: must have a base report to post]
   require_head: false # [true :: must have a head report to post]
