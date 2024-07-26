@@ -13,10 +13,10 @@ coverage:
         target: auto
         threshold: 1%
 
-comment:
-  layout: "reach, diff, flags, files"
-  behavior: default
-  require_changes: true
-  require_base: false
-  require_head: true
-  hide_project_coverage: false
+comment: # this is a top-level key
+  layout: "diff, flags, files"
+  behavior: always
+  require_changes: false # learn more in the Requiring Changes section below
+  require_base: false # [true :: must have a base report to post]
+  require_head: false # [true :: must have a head report to post]
+  hide_project_coverage: false # [true :: only show coverage on the git diff]

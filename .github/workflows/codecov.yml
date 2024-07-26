@@ -13,12 +13,12 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run tests and collect coverage
-        run: npm run test --coverage --coverageDirectory=coverage --coverageReporters=lcov
+        run: npm run test  --coverageDirectory=coverage --coverageReporters=lcov
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage/lcov.info
-          flags: unittests
+          flags: unit-tests
           name: codecov-umbrella
           fail_ci_if_error: true
